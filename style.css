@@ -1,0 +1,15 @@
+
+/*on indique à tout les éléments d'occuper l'espace*/
+*{
+    margin: 0;
+    padding: 0;
+     
+}
+/*on indique la police et sa taille*/
+html, body {
+    font-size: 16px;
+}
+
+body{
+    min-width: 100vh;
+}
