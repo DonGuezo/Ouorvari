@@ -1,15 +1,98 @@
 
 /*on indique à tout les éléments d'occuper l'espace*/
-*{
-    margin: 0;
-    padding: 0;
-     
-}
+
 /*on indique la police et sa taille*/
+
 html, body {
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body{
     min-width: 100vh;
+}
+a{
+    text-decoration: none;
+}
+.main-contenu{
+    margin: auto;
+}
+section{
+    margin: auto;
+}
+.ourvari-presentation{
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.ourvari-logo img{
+    width: auto;
+    height: auto;
+}
+.ourvari-titre{
+    text-align: center;
+}
+h1{
+    color: #d5a73e;
+    /*regular400*/
+    font-size: 4em;
+    font-weight: lighter;
+    margin: 0;
+
+}
+h2{
+    color: #d5a73e;
+    
+    font-size: 3em;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    /*regular400 plus petit*/
+}
+h3{
+    /* light300 bold */
+    
+    font-size: 1em ;
+    font-weight:bolder;
+}   
+.ourvari-titre h4{
+    /*light 300*/
+    border-top: 2px solid black;
+    padding: 10px 0 0 0 ;
+    margin: 0;
+}
+p{
+    margin-left: 5px;
+    /*extra-light 300*/
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.ourvari-rosters{
+    margin: 3% 14%;
+    border-top: 1px solid #d5a73e;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.rosters{
+    margin: 50px 25px;
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    flex: min-content;
+}
+.description{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    
+    align-items: baseline;
 }
